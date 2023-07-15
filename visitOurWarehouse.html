@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Best Ball Online Shop - Visit our warehouse</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <link href="Fuse_ultraBlack-style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+<body onload="setInterval(changeAnimationWidth, 300)">
+  <nav class="navbar navbar-expand-lg myNavBar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="/bestball_img/name.png" style="width:100px; margin:10px 0 10px 0;"></a>
+        <a class="navbar-brand" href="shop.html" style="font-size: 18px; color:#ffffff; font-weight:bold;">Shop</a>
+        <a class="navbar-brand" href="visitOurWarehouse.html"
+          style="font-size: 15px; color:#ffffff; font-weight:bold;">Visit our Warehouse</a>
+      <a href="Carts.html"><img src="https://www.pngkey.com/png/full/307-3071593_accessories-shopping-cart-icon-white.png" style="width:30px; position:relative; left: -3%;"></a>
+    </div>
+  </nav>
+  <section class="vistOurWarehouse">
+    <div class="div06">
+      <img style="margin-right: 4%; width: 70%; max-width: 100px;" src="/bestball_img/name.png">
+      <div class="animated_img"  id="myAnimationSize"></div>
+      <img src="/bestball_img/reduction.png" style="width: 150px;">
+    </div>
+    <div class="div07">
+      <h2>Visit our warehouse</h2>
+      <div08 class="div08">
+        <div>
+            <input type="text" class="form-control" placeholder="Full Name" aria-label="Fullname" aria-describedby="basic-addon1">
+          <br>
+          <input type="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
+        </div>
+          <br>
+        <p>Choose a date for your visit</p>
+        <div>
+   <input type="date" class="form-control" placeholder="Date" aria-label="Date" aria-describedby="basic-addon1">
+        </div>
+        <br>
+        <form action="">
+  <label style="margin: 5px;" for="guide">Choose a guide</label>
+  <select class="form-select" size="2" aria-label="size 2 select example" name="guide">
+    <option value="volvo">Michel Volvo</option>
+    <option value="saab">Veronic Saab</option>
+  </select>
+        </form>
+        <br>
+      <button type="button" class="btn btn-secondary button_visit" onclick="" data-bs-toggle="modal" data-bs-target="#exampleModal">Plan my visit</button>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Visit Confirmation</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <span style="font-size: 25px; display: block;">Are you confirming the visit of Best Ball Warehouse?
+        </span>(If you are, more information and price wil be send in your email)
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" value="Reload Page" onClick="window.location.reload(true)">No</button>
+        <button type="button" class="btn btn-primary" value="Reload Page" onClick="window.location.reload(true)">Yes</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </div> 
+    </div>
+  </section>
+  
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>

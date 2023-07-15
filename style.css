@@ -1,0 +1,358 @@
+* {
+  font-family: 'Quick Fuse', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  min-width:484px;
+  color:red;
+  background-color: white;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.aboutUs {
+  background-color:#ebeced;
+  width:100%;
+  padding:20px 40px 20px 40px;
+  margin: 5px 0 0 0;
+}
+
+.aboutUs h4 {
+  font-size: 15px;
+  margin:15px 0 10px 0;
+}
+
+.aboutUs a {
+  display: block;
+  font-size: 13px;
+  color: gray;
+  text-decoration:none;
+  margin: 0 0 5px 0;
+}
+
+.aboutUs p {
+  display: block;
+  font-size: 12px;
+  color: #454545;
+  margin: 0;
+}
+
+.homepage h2 {
+  font-size: 40px; 
+  color:#000000; 
+  font-weight:bold;
+}
+
+.welcome{
+  height: 300px;
+  padding:0 0 0 0;
+  margin: 15px 0 10px 5%;
+}
+
+.div01 {
+  background-color: initial;
+  margin: 0 0 0 0px;
+  width:60%;
+  float: left;
+  color:#0F0F0F;
+}
+
+.div02 {
+  background-image: no-repeat url("bestball_img/Logo.png");
+  background-color: initial;
+  width:40%;
+  height:100%;
+  float:right;
+}
+
+@keyframes ballRoll {
+  0%{left:-40px;}
+  50%{left: 100%; rotate: 1080deg;}
+  100%{left: -40px; rotate: 0deg;}
+}
+
+.ballHomepage{
+  animation: ballRoll 20s infinite linear;
+  position: absolute;
+  background-image: url("https://pngimg.com/uploads/baseball/baseball_PNG19006.png");
+  background-size: 40px 40px;
+  width:40px;
+  height:40px;
+}
+
+.div03 {
+  margin:15px 0 55px 0;
+  text-align: center;
+}
+
+
+
+.div04{
+  text-align: center;
+}
+
+.div04 a{
+  text-decoration:none;
+}
+
+.div04 img{
+  width:30%;
+}
+
+.shop{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div05{
+  display:flex;
+  text-align: center;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card_shop{
+  width:40%;
+  margin: 1%;
+}
+
+.shop_card_offer img{
+  height:100%;
+}
+
+.visitOurWarehouse{
+  min-height: 100%;
+}
+
+.div06{
+  float: left;
+  background-color: blue;
+  text-align: center;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  min-height: 700px;
+  height: 100%;
+}
+
+@keyframes image_changing{
+  0% {background-image: url("https://t3.ftcdn.net/jpg/04/42/47/52/240_F_442475292_5ouemiiJiArGyNKSWgUpkRR8lmep6jgM.jpg"); background-repeat: no-repeat;}
+  1% {background-image: url("https://www.avantages.ca/wp-content/uploads/sites/6/2019/01/logistique_entrepot.jpg"); background-repeat: no-repeat;}
+  17% {background-image: url("https://www.avantages.ca/wp-content/uploads/sites/6/2019/01/logistique_entrepot.jpg"); background-repeat: no-repeat;}
+  18% {background-image: url("https://t3.ftcdn.net/jpg/04/42/47/52/240_F_442475292_5ouemiiJiArGyNKSWgUpkRR8lmep6jgM.jpg"); background-repeat: no-repeat;}
+  20% {background-image: url("https://media.istockphoto.com/id/1126931828/photo/warehouse-or-storage-and-shelves-with-cardboard-boxes-industrial-background.jpg?s=170667a&w=0&k=20&c=_CbnM5fSp7XsLvuhRCoOnFI2ca71jPU9dnEgp3I2At4="); background-repeat: no-repeat;}
+  37% {background-image: url("https://media.istockphoto.com/id/1126931828/photo/warehouse-or-storage-and-shelves-with-cardboard-boxes-industrial-background.jpg?s=170667a&w=0&k=20&c=_CbnM5fSp7XsLvuhRCoOnFI2ca71jPU9dnEgp3I2At4="); background-repeat: no-repeat;}
+  38% {background-image: url("https://t3.ftcdn.net/jpg/04/42/47/52/240_F_442475292_5ouemiiJiArGyNKSWgUpkRR8lmep6jgM.jpg"); background-repeat: no-repeat;}
+  40% {background-image: url("https://europaproperty.com/wp-content/uploads/2020/09/22-5_-_11650.jpg"); background-repeat: no-repeat;}
+  57% {background-image: url("https://europaproperty.com/wp-content/uploads/2020/09/22-5_-_11650.jpg"); background-repeat: no-repeat;}
+  58% {background-image: url("https://t3.ftcdn.net/jpg/04/42/47/52/240_F_442475292_5ouemiiJiArGyNKSWgUpkRR8lmep6jgM.jpg"); background-repeat: no-repeat;}
+  60% {background-image: url("https://www.roboticsbusinessreview.com/wp-content/uploads/2019/09/AdobeStock_271589151.jpeg"); background-repeat: no-repeat;}
+  77% {background-image: url("https://www.roboticsbusinessreview.com/wp-content/uploads/2019/09/AdobeStock_271589151.jpeg"); background-repeat: no-repeat;}
+  78% {background-image: url("https://t3.ftcdn.net/jpg/04/42/47/52/240_F_442475292_5ouemiiJiArGyNKSWgUpkRR8lmep6jgM.jpg"); background-repeat: no-repeat;}
+  80% {background-image: url("https://images.pristineauction.com/27/274800/main_1-One-Dozen-Rawlings-Official-Minor-League-Baseballs-Pat-O-Connor-President-PristineAuction.com.jpg"); background-repeat: no-repeat;}
+  97% {background-image: url("https://images.pristineauction.com/27/274800/main_1-One-Dozen-Rawlings-Official-Minor-League-Baseballs-Pat-O-Connor-President-PristineAuction.com.jpg"); background-repeat: no-repeat;}
+  98% {background-image: url("https://t3.ftcdn.net/jpg/04/42/47/52/240_F_442475292_5ouemiiJiArGyNKSWgUpkRR8lmep6jgM.jpg"); background-repeat: no-repeat;}
+  100% {background-image: url("https://t3.ftcdn.net/jpg/04/42/47/52/240_F_442475292_5ouemiiJiArGyNKSWgUpkRR8lmep6jgM.jpg"); background-repeat: no-repeat;}
+}
+
+.animated_img{
+  animation: image_changing 20s infinite;
+}
+
+#myAnimationSize {
+  width: 220px;
+  height:128px;
+  background-size: 220px 128px;
+}
+
+.myNavBar{
+  background: blue;
+}
+
+.div07{
+  float: right;
+  width: 50%;
+  min-height: 700px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.div07 h2{
+  margin: 60px 0 40px 0;
+}
+
+.div08{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+}
+
+.button_visit{
+  width: 150px;
+}
+
+.ourEmployees{
+  text-align: center;
+  padding-top: 40px;
+}
+
+.div09{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ourMission{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  z-index:-1;
+}
+
+.ourMission h2{
+  font-size: 45px;
+  margin: 40px 0 40px 0;
+}
+
+@keyframes ballFallBag{
+  0%{top:275px; left:95%}
+  50%{top:275px; left:79%}
+  100%{top:400px; left:79%}
+}
+
+.ballMission{
+  animation: ballFallBag 2s infinite;
+  position: absolute;
+  background-size: 40px 40px;
+  top: 400px;
+  left:80%;
+  width:40px;
+  height:40px;
+  z-index:2;
+  background-image: url("https://pngimg.com/uploads/baseball/baseball_PNG19006.png");
+}
+
+.div10{
+  padding: 50px 0 50px 50px;
+  text-align: left;
+  background-color: #0055ff;
+  height:270px;
+}
+
+.containerList{
+  width: 100%;
+  text-align: center;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: #1f1f1f;
+}
+
+.containerList h4{
+  margin: 20px;
+  max-width: 690px;
+  font-weight: bold;
+  color: blue;
+  outline: 1px solid black;
+}
+
+.containerList div{
+  width: 40%;
+  text-align: center;
+}
+
+.div14{
+  display: flex;
+  justift-content: space-around;
+  background-color: #00bfff;
+  min-height: 360px;
+  color: #ffffff;
+}
+
+.carts{
+  text-align: center;
+  min-height: 600px;
+}
+
+.carts h2{
+  margin: 15px 0 30px 0;
+}
+
+.pay label{
+  text-align: left;
+  display: block;
+  margin: 20px 0 10px 0;
+}
+
+.pay input{
+  
+  margin: 5px 0 15px 0;
+}
+
+.pay {
+  width:58%;
+  padding:2%;
+  float: left;
+}
+
+.pay button{
+  margin: 0 0 5px 0;
+}
+
+.date_format{
+  align-item: left;
+}
+
+#credi{}
+#expiration{}
+#cvv{}
+#confirm{}
+#cancel{}
+#name{}
+
+.carts_product{
+  width: 38%;
+  float: right;
+  margin-right: 1%;
+  border: 1px solid black;
+}
+
+.div13{
+  display: flex;
+  justify-content: space-between
+}
+
+.div11{
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  margin:2%;
+}
+
+.div12{
+  text-align: right;
+  display: inline-block;
+  vertical-align: top;
+  margin:2%;
+}
+
+#items_cost{}
+#order_total{}
